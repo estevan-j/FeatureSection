@@ -1,0 +1,29 @@
+.CardFeat {
+  max-width: 400px;
+  min-height: 550px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #212936;
+  border-radius: 15px;
+  gap: 1rem;
+  cursor: pointer;
+}
+.CardFeat:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.CardFeat h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin: 0;
+}
+
+.CardFeat p {
+  font-size: 1.5rem;
+  color: #9da3ae;
+  margin: 0;
+}
