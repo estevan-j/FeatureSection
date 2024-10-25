@@ -1,5 +1,5 @@
 {
-  "homepage": "https://estevan-j.github.io/featuresection",
+  "homepage": "https://estevan-j.github.io/FeatureSection",
   "name": "featuresection",
   "private": false,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build:css": "tailwindcss build src/index.css -o dist/output.css"
   },
   "dependencies": {
